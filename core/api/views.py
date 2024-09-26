@@ -4,6 +4,7 @@ from rest_framework import permissions, viewsets
 
 from .serializers import GroupSerializer, UserSerializer
 
+from database.models import *
 
 class UserViewSet(viewsets.ModelViewSet):
     """
